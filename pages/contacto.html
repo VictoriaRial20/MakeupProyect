@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="" href="../img/logoprincipal.svg">
+    <link rel="stylesheet" href="../css/style4.css">
+    <title>MAKEUP MR</title>
+</head>
+<body>
+    <header>
+    <!--------------------NAV-------------------->
+        <nav class="nav">
+            <a href="../index.html">
+                <img class="nav__logo" src="../img/logoprincipal.svg" alt="LOGO">
+            </a>
+            <ul class="nav__links">
+                <li class="nav__item"> 
+                    <a class="nav__enlace" href="../index.html">INICIO</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__enlace" href="cursos.html">CURSOS</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__enlace" href="maquillajes.html">MAQUILLAJES</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__enlace" href="sobrenos.html">SOBRE NOSOTRAS</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__enlace nav__enlace--select" href="contacto.html">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+   <!--------------------MAIN-FORMULARIO-------------------->
+    <main class="main">
+        <form class="main__formulario" action="contactp.html" method="get">
+            <div>
+                <label class="main__texto" for="nombre">Nombre</label>
+                <input type="text" name="nombre" required>
+            </div>
+            <br>
+            <div>
+                <label  class="main__texto" for="apellido">Apellido</label>
+                <input type="text" name="apellido" required>
+            </div>
+            <br>
+            <div>
+                <label  class="main__texto" for="email">Email</label>
+                <input type="email" name="email" placeholder="ejemplo@gmail.com" required>
+            </div>
+            <br>
+            <div>
+                <label  class="main__texto" for="telefono">Teléfono</label>
+                <input type="number" name="telefono" required>
+            </div>
+            <br>
+            <div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Escriba su consulta" required></textarea>
+            </div>
+            <br>
+            <div>
+                <input class="main__boton" type="submit" value="Enviar">
+                <input class="main__boton" typeclass="main__boton"="reset" value="Borrar">    
+            </div>
+        </form>
+    </main>
+    <!--------------------FOOTER-------------------->
+    <footer class="footer">
+        <p class="footer__elementos">Copie Rigth</p>
+        <div class="footer__elementos">
+            <a class="footer__logospie" href="https://www.instagram.com/">
+                <img class="footer__logo" src="../img/instagram.png" alt="LogoInstagram" height="50px" width="50px">
+            </a>
+            <a class="footer__logospie" href="https://www.gmail.com">
+                <img class="footer__logo"src="../img/email.png" alt="LogoEmail" height="50px" width="50px">
+            </a>
+        </div>
+        <p class="footer__elementos">+598 999 156 452</p>
+    </footer>
+</body>
+</html>

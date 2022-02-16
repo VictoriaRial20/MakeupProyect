@@ -1,0 +1,109 @@
+/*------------------FUENTES------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Roboto:ital,wght@1,100&display=swap');
+/*------------------RESETEO------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*BODY*/
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/*------------------NAV------------------*/
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+}
+.nav__links{
+    width: 45%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.nav__item:hover{
+    transform: scale(1.1);
+}
+.nav__enlace{
+    text-decoration: none;
+    color: black;
+}
+.nav__enlace--select{
+    font-weight: 600;
+}
+.nav__logo{
+    margin-left: 10px;
+    height: 45px;
+}
+/*------------------MAIN------------------*/
+.main{
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main__texto{
+    text-align: center;
+    padding: 20px;
+    width: 50vw;
+}
+.main__imagen{
+    display: flex;
+    height: 60vh;
+    width: auto;
+}
+/*------------------FOOTER------------------*/
+.footer{
+    height: 10vh;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer__logo{
+    width: 30px;
+    height: auto;
+}
+/*------------------MEDIAQUERIES------------------*/
+@media screen and (max-width: 576px) {
+    /*-------------navmedia-------------*/
+    .nav__links{
+        flex-direction: column;
+        font-size: 12px;
+    }
+    .nav{
+        height: 30vh;
+    }
+    .nav__logo{
+        height: 25px;
+    }
+    /*-------------mainmedia-------------*/
+    .main__texto{
+        font-size: 10px;
+        width: 80vw;
+        margin: 0px;
+        padding: 0px;
+    }
+    .main__imagen{
+        padding: 15px;
+    }
+    /*-------------footermedia-------------*/
+    .footer{
+        flex-direction: column;
+        height: 20vh;
+        font-size: 12px;
+    }
+    .footer__logo{
+        width: 15px;
+    }
+}
