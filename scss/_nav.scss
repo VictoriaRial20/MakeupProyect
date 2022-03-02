@@ -1,0 +1,32 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    .nav__links{
+        width: 45%;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+    .nav__item{
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+    .nav__enlace{
+        text-decoration: none;
+        color: black;
+    }
+    .nav__enlace--select{
+        font-weight: 600;
+    }
+    .nav__logo{
+        margin-left: 10px;
+        height: 45px;
+    }
+}

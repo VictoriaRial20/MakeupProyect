@@ -1,0 +1,12 @@
+.footer{
+    height: 10vh;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    .footer__logo{
+        width: 30px;
+        height: auto;
+    }
+}
