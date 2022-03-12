@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*------------------FUENTES------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Roboto:ital,wght@1,100&display=swap");
 /*------------------RESETEO------------------*/
@@ -59,3 +60,30 @@ body {
   .footer .footer__logo {
     width: 30px;
     height: auto; }
+  .footer .ordenbloques {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row; }
+
+/*------------------MAPA------------------*/
+.tamañobloque, .bloque1, .bloque2, .bloque3, .bloque4 {
+  width: 40px;
+  height: 40px; }
+
+.bloque1 {
+  background-color: #800080; }
+
+.bloque2 {
+  background-color: #ff00ff; }
+
+.bloque3 {
+  background-color: #008080; }
+
+.bloque4 {
+  background-color: #c0c0c0; }
+
+.boxmix {
+  background-color: green;
+  width: 40px;
+  height: 40px; }

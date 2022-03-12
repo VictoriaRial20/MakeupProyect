@@ -1,0 +1,21 @@
+// MAPA y EXTEND
+@import "_variables";
+.tamañobloque{
+    width: 40px;
+    height: 40px;
+}
+@each $bloques, $color in $bloque {
+    .#{$bloques} {
+        background-color: $color;
+        @extend.tamañobloque;
+    } 
+}
+//MIXINS 
+@mixin caja ($background-colo, $width, $height){
+    background-color: $background-colo;
+    width: $width;
+    height: $height;
+}
+.boxmix{
+    @include caja( green, 40px, 40px);
+}

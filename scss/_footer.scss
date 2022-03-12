@@ -9,4 +9,10 @@
         width: 30px;
         height: auto;
     }
+    .ordenbloques{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+    }
 }
